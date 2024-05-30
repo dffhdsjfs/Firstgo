@@ -3,7 +3,7 @@ package main
 import "fmt"
 
 func main() {
-	fmt.Println("Hello, World!" + "12345")
+	fmt.Println("Hello, World!" + "123456")
 	fmt.Println("菜鸟教程：runoob.com")
 	var stockcode = 123
 	var enddate = "2020-12-31"
@@ -13,11 +13,7 @@ func main() {
 	//fmt.Printf(url,stockcode,enddate)
 	var a, b = 9, 2
 	//var c = true
-	var c = false
-	var d = "hello"
-	if c {
-		fmt.Println(a, b, c, d)
-	}
+
 	for a <= 13 {
 		fmt.Println("Hello, World!" + "123")
 		a++
